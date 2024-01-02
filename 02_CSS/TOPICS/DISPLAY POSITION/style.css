@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 10px;
+    color: white;
+
+    display: inline-block;
+}

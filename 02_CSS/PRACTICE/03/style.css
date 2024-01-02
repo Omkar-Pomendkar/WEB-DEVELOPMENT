@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    text-decoration:underline;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-transform: none;
+    line-height: 40px;
+}
