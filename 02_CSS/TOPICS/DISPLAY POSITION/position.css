@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    
+}
+#static{
+    position: static;
+}  
+#relative{
+    /* relative works in his position */
+    top: 10px;
+    left: 50px;
+    position: relative;
+}
+#fixed{
+    top: 100px;
+    left: 500px;
+    position: fixed; 
+}
+#absolute{
+    top: 10px;
+    left: 50px;
+    position: absolute;   
+}
