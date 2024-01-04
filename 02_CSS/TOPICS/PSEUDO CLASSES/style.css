@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration:4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2sec;
+
+}
+button:hover{
+    background-color: rgb(115, 0, 128);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+
+button:active{
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
